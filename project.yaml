@@ -1,0 +1,130 @@
+basic:
+    name: 'Surescripts.com - 916'
+    environments:
+        production: 'https://sure-916-surescripts.pantheonsite.io'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 480
+        - 768
+        - 1024
+        - 1200
+        - 1400
+    pages:
+        - /
+        - /support
+        - /independent-pharmacy-helpline
+        - /support/training
+        - /why-surescripts
+        - /why-surescripts/network-alliance
+        - /why-surescripts/network
+        - /why-surescripts/our-impact
+        - /why-surescripts/our-impact/customer-stories
+        - /why-surescripts/our-impact/annual-impact-report
+        - /why-surescripts/our-impact/white-coat-award
+        - /why-surescripts/our-impact/data-reports
+        - /why-surescripts/customer-experience
+        - /why-surescripts/customer-experience/network-alliance-partner-program
+        - /why-surescripts/certifications-and-accreditations
+        - /what-we-do
+        - /what-we-do/ehr-vendors
+        - /what-we-do/health-plans
+        - /what-we-do/health-systems
+        - /what-we-do/healthcare-analytics-vendors
+        - /what-we-do/life-sciences-companies
+        - /what-we-do/long-term-post-acute-care
+        - /what-we-do/patient-access-vendors
+        - /what-we-do/pbms
+        - /what-we-do/pharmacy/pharmacies
+        - /what-we-do/pharmacy/pharmacy-technology-vendors
+        - /what-we-do/pharmacy/specialty-pharmacies
+        - /what-we-do/intelligent-prescribing
+        - /what-we-do/intelligent-prior-authorization
+        - /what-we-do/benefit-price-intelligence
+        - /what-we-do/interoperability
+        - /what-we-do/value-based-care
+        - /what-we-do/care-team-evolution
+        - /what-we-do/care-event-notifications
+        - /what-we-do/clinical-direct-messaging
+        - /what-we-do/electronic-benefit-verification
+        - /what-we-do/electronic-prior-authorization
+        - /what-we-do/e-prescribing-for-controlled-substances
+        - /what-we-do/eligibility
+        - /what-we-do/e-prescribing
+        - /what-we-do/formulary
+        - /what-we-do/on-demand-formulary
+        - /what-we-do/medication-history-for-ambulatory
+        - /what-we-do/medication-history-for-populations
+        - /what-we-do/medication-history-for-reconciliation
+        - /what-we-do/real-time-prescription-benefit
+        - /what-we-do/record-locator-exchange
+        - /what-we-do/specialty-medications-gateway
+        - /what-we-do/therapeutic-alternatives
+        - /what-we-do/touchless-prior-authorization
+        - /insights
+        - /insights/benefit-price-intelligence
+        - /insights/intelligent-prior-authorization
+        - /insights/clinical-interoperability
+        - /insights/intelligent-prescribing
+        - /insights/qhin
+        - /insights/value-based-care
+        - /insights/care-team-evolution
+        - /insights/specialty-medications
+        - /insights/intelligence-in-action/podcasts
+        - /insights/healthcare-data-analytics-spotlight-rochelle-henderson
+        - /who-we-are
+        - /who-we-are/our-history
+        - /who-we-are/experienced-leadership
+        - /who-we-are/press-releases
+        - /who-we-are/events
+        - /who-we-are/careers
+        - /who-we-are/contact-us
+        - /contact-sales
+        - /clinical-interoperability
+        - /press-releases/media-advisory-surescripts-present-innovative-interoperability-2025-nourishing-change-conference-hosted-kroger-health-may-13-15
+        - /press-releases/new-season-surescripts-award-winning-podcast-theres-better-way-premiere-may
+        - /press-releases/media-advisory-surescripts-experts-present-innovative-interoperability-prior-authorization-technologies-2025-ncpdp-annual-conference-may-5-7
+        - /insights/transforming-prior-authorization
+        - /insights/truly-digital-benefit-verification
+        - /insights/ncpdp-upgrade-certification-tester
+        - /insights/heard-at-himss-25
+        - /insights/powering-prior-authorization-transformation
+        - /insights/are-you-who-you-say-you-are
+        - /insights/artificial-intelligence-helping-providers-video
+        - /insights/its-good-to-be-hitrust
+        - /insights/designated-qhin
+        - /news-center/intelligence-in-action/opioids/electronic-prescribing-for-controlled-substances-20-years-of-persistence-and-progress
+        - /news-center/intelligence-in-action/interoperability/it-s-not-just-putting-pills-in-a-bottle-the-pharmacist-as-care-provider
+        - /news-center/intelligence-in-action/specialty-medications/survey-says-specialty-pharmacists-want-more-time-for-patient-care
+        - /insights/podcast-pharmacy-interoperability
+        - /insights/advancing-pharmacy-interoperability
+        - /insights/medication-history-for-payers
+        - /insights/innovating-for-impact-with-sig-iq-for-electronic-prescribing
+        - /privacy-office
+        - /sitemap
+        - /website-user-agreement
+    monitoring:
+        days: {  }
+        type: daily
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 20
+    scroll: true
+    headers:
+        - { header: user-agent, value: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: '20'
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
