@@ -4,6 +4,10 @@ basic:
         production: 'https://sure-916-surescripts.pantheonsite.io'
         staging: ''
         development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: null
     breakpoints:
         - 480
         - 768
@@ -122,13 +126,12 @@ advanced:
     custom_css: ''
     mock_content: ''
     sensitivity: 15
-    night_mode: ''
-    retina_images: ''
+    night_mode: false
+    retina_images: false
+    single_ip: false
     performance:
         workers_production: '20'
         workers_nonproduction: 10
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
-proxy: false
-type: single-site
